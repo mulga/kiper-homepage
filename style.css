@@ -1,0 +1,639 @@
+* {box-sizing: border-box;}
+
+
+
+body
+{   
+    
+    font-family: 'Lato', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    
+
+    color: #707070;
+    font-size: 15px;
+    line-height: 27px;
+	margin: 0;
+}
+
+
+
+button
+{
+	cursor: pointer;
+}
+
+.container
+{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* -------- Top Bar -------- */
+
+
+.top-bar
+{
+    background-color: #3d5bc1;
+    color: white;
+    font-size: 13px;
+    padding: 10px 0px;
+    /* margin-bottom: 20px; */
+}
+
+.top-bar a
+{   
+    text-decoration: none;
+    color: white;
+    
+}
+
+.top-bar i
+{   
+    
+    font-size: 15px;margin-right: 8px;
+    
+}
+
+.top-bar .mail
+{
+    margin-left: 30px;
+}
+
+/* Main Header */
+
+.header-bar
+{
+	
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%);
+    padding: 25px 0px;
+    /* margin-bottom: 20px; */
+    position: relative;
+    z-index: 999;
+        
+}
+
+.header {
+	display: flex;
+	color: black;
+	padding: 0px 0px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 400;
+	margin-right: 50px;
+	
+}
+
+.logoImage {
+	width: 164px;
+}
+
+.menu 
+{
+    display: flex;
+    margin-left: auto;
+}
+ 
+.menu a {
+	text-decoration: none;
+	color: #707070;
+	font-size: 15px;
+	font-weight: 400px;
+	line-height: 27px;
+	padding: 10px 20px;
+	margin-right: 10px;
+	transition: 5ms;
+}
+
+.menu a:hover {
+	background-color: orange;
+    
+	color: white;
+	border-radius: 5px;
+}
+.menu a {
+	display: block;
+	text-transform: uppercase;
+}
+
+.menu .active {
+	color: #274abb;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #274abb;
+}
+
+.header-right a {
+	color: #274abb;
+	border: 1px solid #274abb;
+	border-radius: 5px;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.header-right a:hover {
+	background-color: #274abb;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* Main */
+/* Hero Section */
+
+.hero-section
+{
+    background-image: url(https://kiper-immobilien.de/wp-content/uploads/2021/01/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      
+           
+}
+
+
+
+.hero-title a
+{
+    text-decoration: none;
+   
+}
+
+.hero-title
+{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+      
+          
+}
+
+
+.hero-title h1
+{
+    color: black;
+    font-family: lato;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.hero-title h3
+{
+    color: black;
+    font-family: lato;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+/* Features Section */
+
+.features-section
+{
+    padding: 55px 0px;
+}
+
+.features-card
+{
+    width: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-card i
+{
+    width: 130px;
+    height: 130px;
+    background-color: #274abb;
+    color: white;
+    font-size: 55px;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-card h1
+{
+    font-size: 23px;
+    color: #333;
+}
+
+.features-card p
+{
+    font-size: 16px;
+    line-height: 29px;
+    color: #888;
+    margin-top: 0px;
+    
+}
+
+
+.features-card-list
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Uber Uns Section */
+
+
+.uber-uns-title
+{
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 22px 50px;
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 12%);
+    top: -65px;
+    left: calc(50% - (122.5px)); 
+    position: absolute;
+    
+    
+}
+
+.uber-uns
+{
+    padding: 50px 0px 40px 0px;
+    background-color: #f7f7f7;
+    position: relative;
+    margin-top: 80px;
+}
+
+.uber-uns p
+{
+    text-align: center;
+}
+
+.uber-uns-bold
+{
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+/* Call to action */
+
+.call-to-action
+{
+    background-color: rgb(39, 74, 187);
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ----- Portfolio Section ----- */
+
+
+.portfolio
+{
+    padding-top: 150px;
+}
+
+.portfolio-title
+{
+    color: #333;
+    margin: 15px 0px 50px 0px;
+}
+
+.card
+{
+    width: 373px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    
+    
+}
+
+.picture
+{
+    background-image: url(https://kiper-immobilien.de/wp-content/uploads/2017/08/2.jpg);
+
+    height: 300px;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 15px;
+
+    position: relative;
+    z-index: 0;
+
+    cursor: pointer;
+        
+}
+
+.picture-2
+{
+    background-image: url(https://kiper-immobilien.de/wp-content/uploads/2017/08/1-1.jpg);
+}
+
+.picture-3
+{
+    background-image: url(https://kiper-immobilien.de/wp-content/uploads/2017/08/1-2.jpg);
+}
+
+
+.verkauft
+{
+    
+    font-size: 13px;
+    font-weight: 100;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 2px 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+    
+}
+
+.price
+{
+    font-size: 23px;
+    color: white;
+   
+}
+
+
+.price :last-child
+{
+    font-size: 16px
+}
+
+/* overlay */
+
+.overlay, .overlayBlue
+{
+    background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity 0.4s;
+}
+
+.overlayBlue
+{
+    background: linear-gradient(0deg, rgba(0, 54, 170, 0.7) 0%, rgba(0,0,0,0) 100%);
+    opacity: 0;
+}
+
+.picture:hover .overlay
+{
+    opacity: 0;
+}
+
+.picture:hover .overlayBlue
+{
+    opacity: 1;
+}
+
+
+.picture i
+{
+    position: absolute;
+    background-color: #3d5bc1;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    font-size: 20px;
+    padding: 10px;
+
+    opacity: 0;
+    transition: opacity 0.4s, left 0.4s, right 0.4s;
+}
+
+
+.left
+{
+    left: 10px;
+    top: calc(50% - 15px);
+}
+
+.right
+{
+    right: 10px;
+    top: calc(50% - 15px);
+}
+
+
+.picture:hover i
+{
+    opacity: 1;
+}
+
+.picture:hover .left
+{
+    left: 15px;
+    
+}
+
+.picture:hover .right
+{
+    right: 15px;
+}
+
+
+/* Card bottom */
+
+
+.house-detail-bottom
+{
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.house-detail-bottom a
+{
+    text-decoration: none;
+}
+
+.house-detail-bottom h4
+{
+    font-size: 20px;
+    color: #333;
+    line-height: 31px;
+    margin: 0px;
+}
+
+.house-detail-bottom h4:hover
+{
+    color: #274abb;
+}
+
+.data
+{
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #909090;;
+    
+}
+
+
+.time
+{
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+
+.card-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+
+
+/*----- FOOTER ----- */
+
+
+footer
+{
+    
+   background-color: #fcfcfc;
+   
+}
+
+.footer-main
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.footer-main div
+{
+    padding: 0px 15px; 
+}
+
+.footer-main h4
+{
+    font-size: 21px;
+    color: #333;
+    margin-top: 0px;
+}
+
+
+footer a
+{
+    text-decoration: none;
+    color: #707070;
+    transition: all 0.2s;
+}
+
+
+footer a:hover
+{
+    padding-left: 10px;
+}
+
+
+footer li
+{
+    list-style: none;
+    margin-bottom: 10px;
+    
+}
+
+footer ul
+{
+    padding: 0;
+}
+
+
+.footer-left
+{
+    width: 50%;
+    
+    
+}
+
+
+.footer-right
+{
+    width: 50%;
+    display: flex;
+}
+
+
+.useful-links
+{
+    width: 50%;
+}
+
+
+.useful-links i
+{
+    padding-right: 5px;
+}
+
+.contact-information
+{
+    width: 50%;
+}
+
+
+.footer-copyright
+{   
+    
+    text-align: center;
+    padding: 50px 0px;
+    border-top: 1px solid #e4e5e5;
+    max-width: 1280px;
+    margin: 50px auto;  
+}
